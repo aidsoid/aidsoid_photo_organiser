@@ -1,0 +1,131 @@
+# Commercial License Agreement
+
+## Aidsoid Photo Organiser
+
+Copyright (c) 2026 Alexey Doroshenko. All rights reserved.
+
+This Commercial License Agreement ("Agreement") is between Alexey Doroshenko
+("Licensor") and the individual or entity obtaining a commercial license
+("Licensee").
+
+---
+
+## 1. Definitions
+
+- **"Software"** means the Aidsoid Photo Organiser source code, binaries,
+  documentation, and any associated files.
+- **"Derivative Work"** means any work based on or incorporating the Software.
+
+## 2. Dual Licensing
+
+The Software is available under two licenses:
+
+1. **GNU General Public License v3 (GPLv3)** — free for open-source use with
+   copyleft obligations (see [LICENSE](LICENSE)).
+2. **This Commercial License** — available for a fee, granting rights to use
+   the Software in proprietary and closed-source projects without the copyleft
+   obligations of the GPLv3.
+
+When Licensee obtains this Commercial License, the terms of the GPLv3 do not
+apply. This Agreement is the sole license governing Licensee's use of the
+Software.
+
+## 3. Grant of License
+
+Subject to full payment of the applicable license fee and compliance with this
+Agreement, Licensor grants Licensee a **non-exclusive, non-transferable,
+non-sublicensable** license to:
+
+- Use, copy, and modify the Software for internal and commercial purposes.
+- Create Derivative Works and distribute them in binary or closed-source form
+  without disclosing source code.
+- Deploy the Software on any number of machines within Licensee's organization.
+
+## 4. Restrictions
+
+Licensee shall not:
+
+- Redistribute the Software itself as a standalone product (whether modified or
+  unmodified).
+- Remove or alter any copyright notices, license headers, or attribution.
+- Sublicense, sell, or transfer the license to any third party without prior
+  written consent of Licensor.
+
+## 5. Ownership
+
+The Software is licensed, not sold. Licensor retains all copyright and
+intellectual property rights in the Software. Nothing in this Agreement
+transfers ownership of the Software to Licensee.
+
+## 6. User Responsibility for Data Backup
+
+The Software performs file operations including copying, hardlinking, directory
+creation, metadata reading, and file renaming. **Licensee is solely responsible
+for maintaining backup copies of all files, photos, videos, and other data
+before using the Software.** Licensor strongly recommends testing the Software
+with non-critical data before processing important files.
+
+## 7. Disclaimer of Warranty
+
+THE SOFTWARE IS PROVIDED "AS IS" AND "WITH ALL FAULTS." LICENSOR MAKES NO
+WARRANTIES, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NON-INFRINGEMENT.
+
+LICENSOR DOES NOT WARRANT THAT: (A) THE SOFTWARE WILL OPERATE WITHOUT ERRORS
+OR INTERRUPTION; (B) FILE COPY, HARDLINK, OR MOVE OPERATIONS WILL COMPLETE
+SUCCESSFULLY; (C) FILE METADATA PARSING, DATE EXTRACTION, OR RESULTING FILE
+ORGANIZATION WILL BE ACCURATE; OR (D) THE SOFTWARE WILL PRESERVE FILE
+INTEGRITY, METADATA, OR DIRECTORY STRUCTURE.
+
+LICENSEE ASSUMES ALL RISK ASSOCIATED WITH THE USE OF THE SOFTWARE AND IS
+SOLELY RESPONSIBLE FOR VERIFYING THE RESULTS OF ANY FILE OPERATION.
+
+## 8. Limitation of Liability
+
+TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, IN NO EVENT SHALL LICENSOR
+BE LIABLE FOR ANY INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL, EXEMPLARY, OR
+PUNITIVE DAMAGES, INCLUDING BUT NOT LIMITED TO:
+
+- LOSS, CORRUPTION, OR UNINTENDED MODIFICATION OF FILES, PHOTOGRAPHS, VIDEOS,
+  OR OTHER DATA;
+- LOSS OF FILE METADATA, EXIF DATA, OR TIMESTAMPS;
+- INCORRECT FILE ORGANIZATION, DUPLICATION, OR OMISSION;
+- LOSS OF PROFITS, REVENUE, OR BUSINESS OPPORTUNITIES;
+- COST OF DATA RECOVERY;
+
+EVEN IF LICENSOR HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.
+
+LICENSOR'S TOTAL AGGREGATE LIABILITY FOR ANY DIRECT DAMAGES ARISING OUT OF OR
+RELATED TO THIS AGREEMENT SHALL NOT EXCEED THE TOTAL LICENSE FEES ACTUALLY PAID
+BY LICENSEE.
+
+## 9. Term and Termination
+
+- This Agreement is effective upon payment of the license fee and remains in
+  effect unless terminated.
+- Licensor may terminate this Agreement if Licensee breaches any of its terms.
+  Licensee will have 30 days to cure the breach after written notice.
+- Upon termination, Licensee must cease all use of the Software and destroy all
+  copies.
+
+## 10. General Provisions
+
+- **Entire Agreement.** This Agreement constitutes the entire agreement between
+  the parties and supersedes all prior agreements regarding the Software.
+- **Severability.** If any provision is found unenforceable, the remaining
+  provisions continue in full force and effect.
+- **No Waiver.** Failure to enforce any provision does not waive the right to
+  enforce it later.
+- **Assignment.** Licensee may not assign or transfer this license without
+  prior written consent of Licensor.
+- **Amendments.** Changes to this Agreement must be in writing and agreed upon
+  by both parties.
+
+## 11. How to Obtain a Commercial License
+
+To obtain a commercial license, contact:
+
+**Alexey Doroshenko**
+Email: [aidsoid@gmail.com](mailto:aidsoid@gmail.com)
+
+License fees and terms are determined on a case-by-case basis.

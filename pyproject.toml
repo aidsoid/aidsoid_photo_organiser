@@ -1,0 +1,82 @@
+[project]
+name = "aidsoid-photo-organiser"
+version = "0.1.0"
+description = "Automatically organize your photos and videos by date with precise capture date preservation and a clean folder structure."
+authors = [
+    {name = "Alexey Doroshenko", email = "aidsoid@gmail.com"}
+]
+readme = "README.md"
+license = "GPL-3.0-or-later"
+license-files = ["LICENSE", "COMMERCIAL_LICENSE", "THIRD_PARTY_LICENSES", "COPYRIGHT"]
+keywords = ["photo-organizer", "photo-sorter", "media-organizer", "google-takeout", "exif", "heic", "duplicate-detection", "video-organizer"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: End Users/Desktop",
+    "Environment :: Console",
+    "Topic :: Utilities",
+    "Topic :: Multimedia :: Graphics",
+    "Topic :: Multimedia :: Video",
+    "License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.13",
+    "Programming Language :: Python :: 3 :: Only",
+    "Operating System :: OS Independent",
+]
+requires-python = ">=3.13"
+dependencies = [
+    "exifread>=3.0.0",
+    "ffmpeg-python>=0.2.0",
+    "pi-heif>=1.2.0",
+    "Pillow>=11.1.0",
+]
+[project.urls]
+Homepage = "https://github.com/aidsoid/aidsoid_photo_organiser"
+Repository = "https://github.com/aidsoid/aidsoid_photo_organiser"
+Issues = "https://github.com/aidsoid/aidsoid_photo_organiser/issues"
+
+[project.scripts]
+aidsoid-photo-organiser = "aidsoid_photo_organiser.main:main"
+apo = "aidsoid_photo_organiser.main:main"
+
+[dependency-groups]
+dev = [
+    "pyright==1.1.408",
+    "pytest>=9.0.2",
+    "ruff==0.15.0",
+]
+
+[tool.pytest.ini_options]
+addopts = "-m 'not slow'"
+markers = [
+    "slow: long-running performance tests (run with: pytest -m slow)",
+]
+
+[tool.ruff]
+line-length = 120
+
+[tool.ruff.lint]
+select = [
+    "E",  # PEP8 style errors
+    "F",  # Pyflakes code errors
+    "I",  # Import order / grouping
+    "B",  # Potential bugs / best-practice patterns
+    "D",  # Docstring format (PEP257)
+    "N",  # Naming conventions (PEP8)
+]
+ignore = [
+    "D203",  # Incompatible with D211 (no-blank-line-before-class)
+    "D212",  # Incompatible with D213 (multi-line-summary-second-line)
+]
+preview = true
+extend-select = ["E501"]
+
+[tool.ruff.format]
+quote-style = "single"
+indent-style = "space"
+
+[build-system]
+requires = ["hatchling >= 1.26"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/aidsoid_photo_organiser"]

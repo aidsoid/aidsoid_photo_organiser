@@ -1,0 +1,63 @@
+# Contributing to Aidsoid Photo Organiser
+
+Thank you for your interest in contributing! This project uses a dual-license
+model (GPLv3 + Commercial), which requires a contributor agreement before we
+can accept any contributions.
+
+## Contributor License Agreement (CLA)
+
+By submitting a pull request or any other contribution (code, documentation,
+tests, etc.), you agree to the following:
+
+1. **You grant the project author (Alexey Doroshenko) a perpetual, worldwide,
+   non-exclusive, royalty-free, irrevocable license** to use, reproduce, modify,
+   distribute, sublicense, and commercially license your contribution as part of
+   this project, under any license the author chooses — including the current
+   GPLv3 and Commercial licenses.
+
+2. **You confirm that you have the right** to grant this license. If your
+   contribution includes code from a third party, you confirm that it is
+   compatible with the terms above.
+
+3. **You understand that this project is dual-licensed.** Your contribution may
+   be distributed under the GPLv3 (free/open-source) and separately under a
+   Commercial License (paid, closed-source use). You will not receive royalties
+   or compensation from commercial license sales.
+
+4. **Your contribution remains publicly available** under the GPLv3 as part of
+   the open-source release. The CLA does not restrict your own use of your
+   contribution.
+
+## Why Is This Needed?
+
+This project is dual-licensed. Without a CLA, the author cannot include
+third-party contributions in the commercial license offering, because the
+contributor retains copyright and their code can only be distributed under the
+GPLv3. The CLA ensures that the entire codebase can be offered under both
+licenses.
+
+## How to Contribute
+
+1. Fork the repository and create a feature branch.
+2. Make your changes, following the project's code style (see `docs/code-style.md`).
+3. Add or update tests as needed.
+4. Run linting and tests:
+   ```bash
+   uv run ruff check .
+   uv run pyright
+   uv run pytest
+   ```
+5. Open a pull request with a clear description of what you changed and why.
+
+By opening a pull request, you confirm that you have read and agree to the
+CLA above.
+
+## Reporting Issues
+
+If you find a bug or have a feature request, please open a GitHub issue. No CLA
+is required for issue reports.
+
+## Contact
+
+For questions about contributing or licensing:
+**Alexey Doroshenko** — [aidsoid@gmail.com](mailto:aidsoid@gmail.com)

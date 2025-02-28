@@ -1,0 +1,25 @@
+# Virtual envs
+.venv/
+
+# Python caches / bytecode
+__pycache__/
+
+# IDEs / OS
+.idea/
+.DS_Store
+
+# Logs
+*.log
+
+# Project data
+input/
+output/
+
+# Build / distribution
+dist/
+
+# Pytest cache
+.pytest_cache/
+
+# Ruff cache
+.ruff_cache/
