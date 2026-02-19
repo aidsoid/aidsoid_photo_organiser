@@ -25,10 +25,13 @@ data from any cloud storage, verify your local copies and ensure you have reliab
 ### Quick install
 ```bash
 # Install with pipx
-pipx install git+https://github.com/aidsoid/aidsoid_photo_organiser.git
+pipx install aidsoid-photo-organiser
 
-# Or install with `uv` (Astral)
-uv tool install git+https://github.com/aidsoid/aidsoid_photo_organiser.git
+# Or install with uv (Astral)
+uv tool install aidsoid-photo-organiser
+
+# Or install with pip
+pip install aidsoid-photo-organiser
 
 # Verify install
 apo --help
