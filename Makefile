@@ -38,6 +38,11 @@ local-build:
 local-build-install: local-build
 	pipx install --force dist/*.whl
 
+# Publish to PyPI (requires PYPI_TOKEN environment variable)
+.PHONY: publish
+publish:
+	uv publish --token $(PYPI_TOKEN)
+
 # Clean build artifacts
 .PHONY: clean
 clean:
