@@ -196,5 +196,5 @@ Alexey Doroshenko ✉️ [aidsoid@gmail.com](mailto:aidsoid@gmail.com)
 This project is dual-licensed under the `GPLv3` and a Commercial License.
 For companies or users who need to distribute closed-source derivatives
 or incorporate this software into proprietary products, a commercial
-licensing option is available. See [COMMERCIAL_LICENSE.md](COMMERCIAL_LICENSE.md)
+licensing option is available. See [COMMERCIAL_LICENSE](COMMERCIAL_LICENSE)
 for details and contact information.
